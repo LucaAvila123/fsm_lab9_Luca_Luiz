@@ -13,7 +13,7 @@ end top;
 
 architecture arch_top of top is
 
-constant N : integer := 999999; 
+constant N : integer := 99999999; 
 signal enable : std_logic;
 signal divide_clk : integer range 0 to N;
 signal counter:  std_logic_vector(2 downto 0);
